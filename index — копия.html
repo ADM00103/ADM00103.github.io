@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>RWG</title>
+	<link rel="shortcut icon" href="Materials/R.png" type="image/png">
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/shaking.css">
+	<link rel="stylesheet" href="Materials/Fonts/fonts.css">
+
+	<script src="player.js"></script>
+	<script>
+		function selectAlbum(almubname) {
+			$('aside').removeClass('sidebar__active')
+			if (almubname == 'freedom') {
+				$('.sidebar__freedom').addClass('sidebar__active')
+			} else if (almubname == 'heavy-rain') {
+				$('.sidebar__heavy-rain').addClass('sidebar__active')
+			}
+		}
+	</script>
+</head>
+<body>
+
+	<div class="hamburger" id="hamburger">
+		<span class="s1"></span>
+		<span class="s2"></span>
+		<span class="s3"></span>
+	</div>
+	<div class="contactNav">
+		<div class="contactBtn"><img src="Materials/SVG/icons/user.svg"><img class="crossBtn" src="Materials/SVG/cross.svg"></div>
+		<ul class="socialMedias socialMedias_passive">
+			<li><a href="https://vk.com/mebru" target="_blank"><img src="Materials/SVG/icons/vk-social-network-logo.svg" alt="VK" id="VK"></a></li>
+			<li><a href="http://youtube.com/adm00103" target="_blank"><img src="Materials/SVG/icons/youtube-symbol.svg" alt="YouTube" id="YouTube"></a></li>
+			<li><a href="https://vk.com/id_adm00103" target="_blank"><img src="Materials/SVG/icons/soundcloud.svg" alt="SoundCloud" id="SoundCloud"></a></li>
+			<li><a href="---.com" target="_blank"><img src="Materials/SVG/icons/twitch.svg" alt="Twitch" id="Twitch"></a></li>
+			<li><a href="https://discord.gg/WZJnJYy" target="_blank"><img src="Materials/SVG/icons/discord.svg" alt="Discord" id="Discord"></a></li>
+		</ul>
+	</div>
+	<div class="stripes">
+		<span class="sector sector_1">
+			<b class="dot dot_1"></b>
+			<i class="text transform text_1">A</i>
+		</span>
+		<span class="sector sector_2">
+			<b class="dot dot_2"></b>
+			<i class="text text_2">D</i>
+		</span>
+		<span class="sector sector_3">
+			<b class="dot dot_3"></b>
+			<i class="text text_3">M</i>
+		</span>
+		<div class="underText">
+			<span class="underText_1"><b>A</b>АДМИН</span>
+			<span class="underText_2"><b>D</b>ВСЕГДА</span>
+			<span class="underText_3"><b>M</b>ПРАВ</span>
+		</div>
+	</div>
+	<div class="bottomText">
+		<span class="dimlyText">Thank you</span>
+		<a class="brightText">-</a>
+		<b class="guitarIcon"></b>
+	</div>
+	<aside class="sidebar sidebar__1">
+		<div class="controlIcons">
+
+			<span class="sidebar--close">
+				<object class="black-closeIcon" 
+				  type="image/svg+xml"
+				  data="Materials/SVG/cross-black.svg" width='16px' height='18px'>
+				</object>
+				<object class="notBlack-closeIcon" 
+				  type="image/svg+xml"
+				  data="Materials/SVG/cross.svg" width='16px' height='18px'>
+				</object>
+			</span>
+		</div>
+		<div class="sidebar--content sidebar--content__centered">
+			<h3 class="sidebar--header">SELECT ALBUM</h3>
+			<h6 class="sidebar--album-name" onclick="selectAlbum('freedom');">FREEDOM</h6>
+			<h6 class="sidebar--album-name" onclick="selectAlbum('heavy-rain');">HEAVY RAIN</h6>
+		</div>
+			
+			<ul class="socialMedias_mobile">
+				<li><a href="https://vk.com/mebru" target="_blank"><img src="Materials/SVG/icons/vk-social-network-logo.svg" alt="VK" id="VK"></a></li>
+				<li><a href="http://youtube.com/adm00103" target="_blank"><img src="Materials/SVG/icons/youtube-symbol.svg" alt="YouTube" id="YouTube"></a></li>
+				<li><a href="https://vk.com/id_adm00103" target="_blank"><img src="Materials/SVG/icons/soundcloud.svg" alt="SoundCloud" id="SoundCloud"></a></li>
+				<li><a href="---.com" target="_blank"><img src="Materials/SVG/icons/twitch.svg" alt="Twitch" id="Twitch"></a></li>
+				<li><a href="https://discord.gg/WZJnJYy" target="_blank"><img src="Materials/SVG/icons/discord.svg" alt="Discord" id="Discord"></a></li>
+			</ul>
+
+	</aside>
+	<aside class="sidebar sidebar__freedom">
+		<div class="controlIcons controlIcons__with-header controlIcons__with-header__freedom">
+			<h3 class="sidebar--album-header">FREE</h3>
+			<span class="sidebar--back">
+				<object class="black-backIcon" 
+				  type="image/svg+xml"
+				  data="Materials/SVG/arrow-point-to-right-black.svg" width='16px' height='18px'>
+				</object>
+				<object class="notBlack-backIcon" 
+				  type="image/svg+xml"
+				  data="Materials/SVG/arrow-point-to-right.svg" width='16px' height='18px'>
+				</object>
+			</span>
+			<span class="sidebar--close">
+				<object class="black-closeIcon" 
+				  type="image/svg+xml"
+				  data="Materials/SVG/cross-black.svg" width='16px' height='18px'>
+				</object>
+				<object class="notBlack-closeIcon" 
+				  type="image/svg+xml"
+				  data="Materials/SVG/cross.svg" width='16px' height='18px'>
+				</object>
+			</span>
+		</div>
+		<div class="sidebar--content">
+			<div class="sidebar--album-image-and-info">
+				<img class="sidebar--album-image" src="Materials/Images/beach.png" style="opacity: .9;"><p class="sidebar--album-info"><span class="sidebar--album-info-header">2018</span><br>7 songs, 10 min 30 sec</p>
+			</div>
+			<div class="player" id="player__Cassette">
+				<audio volume="0.5" id="Cassette" class="player-audio" src="Materials/Songs/Freedom/Cassette.mp3" preload="auto"></audio>
+				<div class="play-pause-button play-button" onclick="playSong('Cassette', this);"></div>
+				<div class="player-title">Cassette</div>
+				<progress class="player-progress" min='0' max='100' value='0'></progress>
+				<div class="player-time" data-default="02:20">02:20</div>
+			</div>
+			<div class="player" id="player__Force">
+				<audio volume="0.5" id="Force" class="player-audio" src="Materials/Songs/Freedom/Force.mp3" preload="auto"></audio>
+				<div class="play-pause-button play-button" onclick="playSong('Force', this);"></div>
+				<div class="player-title">Force</div>
+				<progress class="player-progress" min='0' max='100' value='0'></progress>
+				<div class="player-time" data-default="01:52">01:52</div>
+			</div>	
+			<div class="player" id="player__FreedomAdventure">
+				<audio volume="0.5" id="FreedomAdventure" class="player-audio" src="Materials/Songs/Freedom/Adventure.mp3" preload="auto"></audio>
+				<div class="play-pause-button play-button" onclick="playSong('FreedomAdventure', this);"></div>
+				<div class="player-title">Adventure</div>
+				<progress class="player-progress" min='0' max='100' value='0'></progress>
+				<div class="player-time" data-default="01:58">01:58</div>
+			</div>
+			<div class="player" id="player__ArabianNight">
+				<audio volume="0.5" id="ArabianNight" class="player-audio" src="Materials/Songs/Freedom/Arabian Night.mp3" preload="auto"></audio>
+				<div class="play-pause-button play-button" onclick="playSong('ArabianNight', this);"></div>
+				<div class="player-title">Arabian Night</div>
+				<progress class="player-progress" min='0' max='100' value='0'></progress>
+				<div class="player-time" data-default="01:15">01:15</div>
+			</div>
+			<div class="player" id="player__Firestarter">
+				<audio volume="0.5" id="Firestarter" class="player-audio" src="Materials/Songs/Freedom/Firestarter.mp3" preload="auto"></audio>
+				<div class="play-pause-button play-button" onclick="playSong('Firestarter', this);"></div>
+				<div class="player-title">Firestarter</div>
+				<progress class="player-progress" min='0' max='100' value='0'></progress>
+				<div class="player-time" data-default="01:43">01:43</div>
+			</div>		
+			<div class="player" id="player__HotStell">
+				<audio volume="0.5" id="HotStell" class="player-audio" src="Materials/Songs/Freedom/Hot Stell.mp3" preload="auto"></audio>
+				<div class="play-pause-button play-button" onclick="playSong('HotStell', this);"></div>
+				<div class="player-title">Hot Stell</div>
+				<progress class="player-progress" min='0' max='100' value='0'></progress>
+				<div class="player-time" data-default="01:28">01:28</div>
+			</div>	
+			<div class="player" id="player__SunnyMorning">
+				<audio volume="0.5" id="SunnyMorning" class="player-audio" src="Materials/Songs/Freedom/Sunny Morning.mp3" preload="auto"></audio>
+				<div class="play-pause-button play-button" onclick="playSong('SunnyMorning', this);"></div>
+				<div class="player-title">Sunny Morning</div>
+				<progress class="player-progress" min='0' max='100' value='0'></progress>
+				<div class="player-time" data-default="01:14">01:14</div>
+			</div>	
+
+
+		</div>
+	</aside>
+	<aside class="sidebar sidebar__heavy-rain">
+		<div class="controlIcons controlIcons__with-header controlIcons__with-header__heavy-rain">
+			<h3 class="sidebar--album-header">PLUSE</h3>
+			<span class="sidebar--back">
+				<object class="black-backIcon" 
+				  type="image/svg+xml"
+				  data="Materials/SVG/arrow-point-to-right-black.svg" width='16px' height='18px'>
+				</object>
+				<object class="notBlack-backIcon" 
+				  type="image/svg+xml"
+				  data="Materials/SVG/arrow-point-to-right.svg" width='16px' height='18px'>
+				</object>
+			</span>
+			<span class="sidebar--close">
+				<object class="black-closeIcon" 
+				  type="image/svg+xml"
+				  data="Materials/SVG/cross-black.svg" width='16px' height='18px'>
+				</object>
+				<object class="notBlack-closeIcon" 
+				  type="image/svg+xml"
+				  data="Materials/SVG/cross.svg" width='16px' height='18px'>
+				</object>
+			</span>
+		</div>
+		<div class="sidebar--content">
+			<div class="sidebar--album-image-and-info">
+				<img class="sidebar--album-image" src="Materials/Images/Muzon.png"/><p class="sidebar--album-info"><span class="sidebar--album-info-header">2018</span><br>7 songs, 10 min 30 sec</p>
+			</div>
+
+			<div class="player" id="player__HeavyRain">
+				<audio volume="0.5" id="HeavyRain" class="player-audio" src="Materials/Songs/Heavy Rain/Heavy Rain.mp3" preload="auto"></audio>
+				<div class="play-pause-button play-button" onclick="playSong('HeavyRain', this);"></div>
+				<div class="player-title">Heavy Rain</div>
+				<progress class="player-progress" min='0' max='100' value='0'></progress>
+				<div class="player-time" data-default="02:51">02:51</div>
+			</div>	
+			<div class="player" id="player__LastChance">
+				<audio volume="0.5" id="LastChance" class="player-audio" src="Materials/Songs/Heavy Rain/Last Chance.mp3" preload="auto"></audio>
+				<div class="play-pause-button play-button" onclick="playSong('LastChance', this);"></div>
+				<div class="player-title">Last Chance</div>
+				<progress class="player-progress" min='0' max='100' value='0'></progress>
+				<div class="player-time" data-default="02:40">02:40</div>
+			</div>	
+			<div class="player" id="player__GlowingLights">
+				<audio volume="0.5" id="GlowingLights" class="player-audio" src="Materials/Songs/Heavy Rain/Glowing Lights.mp3" preload="auto"></audio>
+				<div class="play-pause-button play-button" onclick="playSong('GlowingLights', this);"></div>
+				<div class="player-title">Glowing Lights</div>
+				<progress class="player-progress" min='0' max='100' value='0'></progress>
+				<div class="player-time" data-default="03:52">03:52</div>
+			</div>
+			<div class="player" id="player__Pulse">
+				<audio volume="0.5" id="Pulse" class="player-audio" src="Materials/Songs/Heavy Rain/Pulse.mp3" preload="auto"></audio>
+				<div class="play-pause-button play-button" onclick="playSong('Pulse', this);"></div>
+				<div class="player-title">Pulse</div>
+				<progress class="player-progress" min='0' max='100' value='0'></progress>
+				<div class="player-time" data-default="03:18">03:18</div>
+			</div>
+			<div class="player" id="player__IncomingMessage">
+				<audio volume="0.5" id="IncomingMessage" class="player-audio" src="Materials/Songs/Heavy Rain/Incoming Message.mp3" preload="auto"></audio>
+				<div class="play-pause-button play-button" onclick="playSong('IncomingMessage', this);"></div>
+				<div class="player-title">Incoming Message</div>
+				<progress class="player-progress" min='0' max='100' value='0'></progress>
+				<div class="player-time" data-default="03:31">03:31</div>
+			</div>
+			<div class="player" id="player__Arcade">
+				<audio volume="0.5" id="Arcade" class="player-audio" src="Materials/Songs/Heavy Rain/Arcade.mp3" preload="auto"></audio>
+				<div class="play-pause-button play-button" onclick="playSong('Arcade', this);"></div>
+				<div class="player-title">Arcade</div>
+				<progress class="player-progress" min='0' max='100' value='0'></progress>
+				<div class="player-time" data-default="03:13">03:13</div>
+			</div>
+			<div class="player" id="player__Overload">
+				<audio volume="0.5" id="Overload" class="player-audio" src="Materials/Songs/Heavy Rain/Overload.mp3" preload="auto"></audio>
+				<div class="play-pause-button play-button" onclick="playSong('Overload', this);"></div>
+				<div class="player-title">Overload</div>
+				<progress class="player-progress" min='0' max='100' value='0'></progress>
+				<div class="player-time" data-default="03:40">03:40</div>
+			</div>
+			<div class="player" id="player__Echo">
+				<audio volume="0.5" id="Echo" class="player-audio" src="Materials/Songs/Heavy Rain/Echo.mp3" preload="auto"></audio>
+				<div class="play-pause-button play-button" onclick="playSong('Echo', this);"></div>
+				<div class="player-title">Echo</div>
+				<progress class="player-progress" min='0' max='100' value='0'></progress>
+				<div class="player-time" data-default="02:00">02:00</div>
+			</div>
+			<div class="player" id="player__Autumn">
+				<audio volume="0.5" id="Autumn" class="player-audio" src="Materials/Songs/Heavy Rain/Autumn.mp3" preload="auto"></audio>
+				<div class="play-pause-button play-button" onclick="playSong('Autumn', this);"></div>
+				<div class="player-title">Autumn</div>
+				<progress class="player-progress" min='0' max='100' value='0'></progress>
+				<div class="player-time" data-default="02:54">02:54</div>
+			</div>
+			<div class="player" id="player__DungeonOfImmolation">
+				<audio volume="0.5" id="DungeonOfImmolation" class="player-audio" src="Materials/Songs/Heavy Rain/Dungeon Of Immolation.mp3" preload="auto"></audio>
+				<div class="play-pause-button play-button" onclick="playSong('DungeonOfImmolation', this);"></div>
+				<div class="player-title">Dungeon Of Immolation</div>
+				<progress class="player-progress" min='0' max='100' value='0'></progress>
+				<div class="player-time" data-default="03:14">02:14</div>
+			</div>
+			<div class="player" id="player__Starfall">
+				<audio volume="0.5" id="Starfall" class="player-audio" src="Materials/Songs/Heavy Rain/Starfall.mp3" preload="auto"></audio>
+				<div class="play-pause-button play-button" onclick="playSong('Starfall', this);"></div>
+				<div class="player-title">Starfall</div>
+				<progress class="player-progress" min='0' max='100' value='0'></progress>
+				<div class="player-time" data-default="02:54">02:54</div>
+			</div>
+			<div class="player" id="player__Sadness">
+				<audio volume="0.5" id="Sadness" class="player-audio" src="Materials/Songs/Heavy Rain/Sadness.mp3" preload="auto"></audio>
+				<div class="play-pause-button play-button" onclick="playSong('Sadness', this);"></div>
+				<div class="player-title">Sadness</div>
+				<progress class="player-progress" min='0' max='100' value='0'></progress>
+				<div class="player-time" data-default="02:53">02:53</div>
+			</div>
+		
+		</div>
+	</aside>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="scroll.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
