@@ -28,4 +28,9 @@
 
 <p>&nbsp;<img align="center" src="https://activity-graph.herokuapp.com/graph?username=ADM00103&theme=dracula" alt="ADM00103" /></p>
 
+<p>&nbsp;<img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=adm00103&theme=github_dark" alt="ADM00103" /></p>
+
+
+
+
 
