@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on **ADM**
 
-- 🌱 I’m currently learning **Python Malware Development**
+- 🌱 I’m currently learning **web development and system administrator**
 
 - 📝 I regularly write articles on [https://t.me/NETSTALKER_RU](https://t.me/NETSTALKER_RU)
 
