@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ADM</title>
+	<link rel="shortcut icon" href="Materials/R.png" type="image/png">
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/shaking.css">
+	<link rel="stylesheet" href="Materials/Fonts/fonts.css">
+
+	<script src="player.js"></script>
+	<script>
+		function selectAlbum(almubname) {
+			$('aside').removeClass('sidebar__active')
+			if (almubname == 'freedom') {
+				$('.sidebar__freedom').addClass('sidebar__active')
+			} else if (almubname == 'heavy-rain') {
+				$('.sidebar__heavy-rain').addClass('sidebar__active')
+			}
+		}
+	</script>
+	
+<script type="text/javascript" src="https://vk.com/js/api/openapi.js?162"></script>
+
+<!-- VK Widget -->
+<div id="vk_community_messages"></div>
+<script type="text/javascript">
+VK.Widgets.CommunityMessages("vk_community_messages", 54712779, {disableExpandChatSound: "1",disableNewMessagesSound: "1",tooltipButtonText: "Нужна помощь?"});
+</script>
+	
+</head>
+<body>
+
+<style>[class="cbalink"]{display:none;}</style>
+<style>body>div:first-child { display: none; }</style>
+
+	<div class="hamburger" id="hamburger">
+		<span class="s1"></span>
+		<span class="s2"></span>
+		<span class="s3"></span>
+	</div>
+	<div class="contactNav">
+		<div class="contactBtn"><img src="Materials/SVG/icons/user.svg"><img class="crossBtn" src="Materials/SVG/cross.svg"></div>
+		<ul class="socialMedias socialMedias_passive">
+			<li><a href="https://vk.com/mebru" target="_blank"><img src="Materials/SVG/icons/vk-social-network-logo.svg" alt="VK" id="VK"></a></li>
+			<li><a href="http://youtube.com/adm00103" target="_blank"><img src="Materials/SVG/icons/youtube-symbol.svg" alt="YouTube" id="YouTube"></a></li>
+			<li><a href="https://vk.com/id_adm00103" target="_blank"><img src="Materials/SVG/icons/soundcloud.svg" alt="SoundCloud" id="SoundCloud"></a></li>
+			<li><a href="https://vk.com/@mebru-strim-nachalsya-stream-adm-online?ref=group_block" target="_blank"><img src="Materials/SVG/icons/twitch.svg" alt="Twitch" id="Twitch"></a></li>
+			<li><a href="https://discord.gg/WZJnJYy" target="_blank"><img src="Materials/SVG/icons/discord.svg" alt="Discord" id="Discord"></a></li>
+		</ul>
+	</div>
+	<div class="stripes">
+		<span class="sector sector_1">
+			<b class="dot dot_1"></b>
+			<i class="text transform text_1">A</i>
+		</span>
+		<span class="sector sector_2">
+			<b class="dot dot_2"></b>
+			<i class="text text_2">D</i>
+		</span>
+		<span class="sector sector_3">
+			<b class="dot dot_3"></b>
+			<i class="text text_3">M</i>
+		</span>
+		<div class="underText">
+			<span class="underText_1"><b>A</b>-АДМИН</span>
+			<span class="underText_2"><b>D</b>-ВСЕГДА</span>
+			<span class="underText_3"><b>M</b>-ПРАВ</span>
+		</div>
+	</div>
+	<div class="bottomText">
+		<span class="dimlyText">Thank you</span>
+		<a class="brightText">-</a>
+		<b class="guitarIcon"></b>
+	</div>
+	<aside class="sidebar sidebar__1">
+		<div class="controlIcons">
+
+			<span class="sidebar--close">
+				<object class="black-closeIcon" 
+				  type="image/svg+xml"
+				  data="Materials/SVG/cross-black.svg" width='16px' height='18px'>
+				</object>
+				<object class="notBlack-closeIcon" 
+				  type="image/svg+xml"
+				  data="Materials/SVG/cross.svg" width='16px' height='18px'>
+				</object>
+			</span>
+		</div>
+		<div class="sidebar--content sidebar--content__centered">
+			<h3 class="sidebar--header">101</h3>
+			<h6 class="sidebar--album-name" onclick="selectAlbum('freedom');">FREE</h6>
+			<h6 class="sidebar--album-name" onclick="selectAlbum('heavy-rain');">PLUSE</h6>
+		</div>
+			
+			<ul class="socialMedias_mobile">
+				<li><a href="https://vk.com/mebru" target="_blank"><img src="Materials/SVG/icons/vk-social-network-logo.svg" alt="VK" id="VK"></a></li>
+				<li><a href="http://youtube.com/adm00103" target="_blank"><img src="Materials/SVG/icons/youtube-symbol.svg" alt="YouTube" id="YouTube"></a></li>
+				<li><a href="https://vk.com/id_adm00103" target="_blank"><img src="Materials/SVG/icons/soundcloud.svg" alt="SoundCloud" id="SoundCloud"></a></li>
+				<li><a href="https://vk.com/@mebru-strim-nachalsya-stream-adm-online?ref=group_block" target="_blank"><img src="Materials/SVG/icons/twitch.svg" alt="Twitch" id="Twitch"></a></li>
+				<li><a href="https://discord.gg/WZJnJYy" target="_blank"><img src="Materials/SVG/icons/discord.svg" alt="Discord" id="Discord"></a></li>
+			</ul>
+
+	</aside>
+	<aside class="sidebar sidebar__freedom">
+		<div class="controlIcons controlIcons__with-header controlIcons__with-header__freedom">
+			<h3 class="sidebar--album-header">FREE</h3>
+			<span class="sidebar--back">
+				<object class="black-backIcon" 
+				  type="image/svg+xml"
+				  data="Materials/SVG/arrow-point-to-right-black.svg" width='16px' height='18px'>
+				</object>
+				<object class="notBlack-backIcon" 
+				  type="image/svg+xml"
+				  data="Materials/SVG/arrow-point-to-right.svg" width='16px' height='18px'>
+				</object>
+			</span>
+			<span class="sidebar--close">
+				<object class="black-closeIcon" 
+				  type="image/svg+xml"
+				  data="Materials/SVG/cross-black.svg" width='16px' height='18px'>
+				</object>
+				<object class="notBlack-closeIcon" 
+				  type="image/svg+xml"
+				  data="Materials/SVG/cross.svg" width='16px' height='18px'>
+				</object>
+			</span>
+		</div>
+		<div class="sidebar--content">
+			<div class="sidebar--album-image-and-info">
+				<img class="sidebar--album-image" src="Materials/Images/beach.png" style="opacity: .9;"><p class="sidebar--album-info"><span class="sidebar--album-info-header">-</span><br>-</p>
+			</div>
+			Привет, я ADM и это мой сайт. Мы помогаем в сборках пк, выборе устройств или девайсов и т.д.
+			<br> Даже если у вас проблемы с Windows, IOS, Android или другой ОС. 
+			<br> Пишите нам мы поможем. <a href="https://vk.com/im?sel=-54712779">https://vk.com/im?sel=-54712779</a>
+			<br>
+			<br>
+			<br>*цены могут измениться, это для ознакомления. 
+			<br>
+			<div class="player" id="player__HeavyRain">
+				<audio volume="0.5" id="HeavyRain" class="player-audio" src="Materials/Songs/Heavy Rain/Heavy Rain.mp3" preload="auto"></audio>
+				<div class="play-pause-button play-button" onclick="playSong('HeavyRain', this);"></div>
+				<div class="player-title">ADM PLAY</div>
+				<progress class="player-progress" min='0' max='100' value='0'></progress>
+				<div class="player-time" data-default="03:07">03:07</div>
+			</div>	
+			
+			</div>	
+
+
+		</div>
+	</aside>
+	<aside class="sidebar sidebar__heavy-rain">
+		<div class="controlIcons controlIcons__with-header controlIcons__with-header__heavy-rain">
+			<h3 class="sidebar--album-header">PLUSE</h3>
+			<span class="sidebar--back">
+				<object class="black-backIcon" 
+				  type="image/svg+xml"
+				  data="Materials/SVG/arrow-point-to-right-black.svg" width='16px' height='18px'>
+				</object>
+				<object class="notBlack-backIcon" 
+				  type="image/svg+xml"
+				  data="Materials/SVG/arrow-point-to-right.svg" width='16px' height='18px'>
+				</object>
+			</span>
+			<span class="sidebar--close">
+				<object class="black-closeIcon" 
+				  type="image/svg+xml"
+				  data="Materials/SVG/cross-black.svg" width='16px' height='18px'>
+				</object>
+				<object class="notBlack-closeIcon" 
+				  type="image/svg+xml"
+				  data="Materials/SVG/cross.svg" width='16px' height='18px'>
+				</object>
+			</span>
+		</div>
+		<div class="sidebar--content">
+			<div class="sidebar--album-image-and-info">
+				<img class="sidebar--album-image" src="Materials/Images/Muzon.png"/><p class="sidebar--album-info"><span class="sidebar--album-info-header">-</span><br>-</p>
+			</div>
+            PLUSE- кто готов сотрудничество со мной.
+           <br>  Если вам нужна просто сборка - 300р
+           <br>  Сборка и помощь в подключении комплектующих - 500р
+		   <br>
+		   <br>
+		   <br>  Для постоянных пользователей тарифы которые возможно будут выгоднее.			
+			<br> Тариф №1 (50р) оплата в месяц и я помогаю вам устранить любые ошибки связанные, с вашим смартфоном или PC.
+			<br> Тариф №2 (500р) оплата в год и я помогаю вам устранить любые ошибки связанные, с вашим смартфоном или PC.
+			<br> Тариф №3 (900р) оплата раз в 2 года и я помогаю вам устранить любые ошибки связанные, с вашим смартфоном или PC.
+			<br> *если вы подпишитесь на группу <a href="https://vk.com/mebru">https://vk.com/mebru</a>, то 1 раз вам мы поможем бесплатно. 
+			<br> Для связи с нами <a href="https://vk.com/im?sel=-54712779">https://vk.com/im?sel=-54712779</a>
+			<br> Цены сделаны для того чтобы я не тратил время в пустую.
+			<br>
+			<br>
+			<br>*цены могут измениться, это для ознакомления. 
+			<br>
+			<div class="player" id="player__LastChance">
+				<audio volume="0.5" id="LastChance" class="player-audio" src="Materials/Songs/Heavy Rain/Last Chance.mp3" preload="auto"></audio>
+				<div class="play-pause-button play-button" onclick="playSong('LastChance', this);"></div>
+				<div class="player-title">ADM PLAY TWO</div>
+				<progress class="player-progress" min='0' max='100' value='0'></progress>
+				<div class="player-time" data-default="03:15">03:15</div>
+			</div>	
+			</div>	
+			
+			</div>
+			
+		</div>
+	</aside>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="scroll.js"></script>
+	<script src="script.js"></script>
+	
+</body>
+</html>
